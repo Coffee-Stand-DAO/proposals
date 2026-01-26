@@ -1,0 +1,26 @@
+{
+  "name": "coffee-stand-dao-proposals",
+  "version": "1.0.0",
+  "description": "Proposals and implementation scripts for Coffee-Stand-DAO",
+  "main": "index.js",
+  "scripts": {
+    "transfer:funds": "node scripts/transfer-funds.js",
+    "transfer:funds:dry-run": "node scripts/transfer-funds.js --dry-run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dao",
+    "gnosis-safe",
+    "polygon",
+    "nft"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
