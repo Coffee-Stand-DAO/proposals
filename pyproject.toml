@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coffee-stand-dao-proposals"
+version = "1.0.0"
+description = "Coffee-Stand-DAO Proposals Management Tool"
+authors = [
+    {name = "Coffee-Stand-DAO"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+proposal = "proposal_manager:main"
